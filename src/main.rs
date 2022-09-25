@@ -5,6 +5,7 @@ mod loops;
 mod pointer_ref;
 mod print;
 mod strings;
+mod structs;
 mod tuples;
 mod types;
 mod vars;
@@ -22,4 +23,5 @@ fn main() {
     loops::run();
     functions::run();
     pointer_ref::run();
+    structs::run();
 }
